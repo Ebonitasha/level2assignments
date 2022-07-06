@@ -1,0 +1,86 @@
+#picture1 {
+    width: 300px;
+    margin: 50px; 
+    background-color: black;
+    height: 200px;
+    transition: background-color 1s ease-in-out 1s, width 1s linear;
+}
+
+#picture1:hover {
+    border-radius: 50px;
+    width: 600px;
+    background-color: purple;
+    border: 8px solid forestgreen;
+}
+
+#picture2 {
+    width: 300px;
+    margin: 50px; 
+    background-color: pink;
+    height: 200px;
+    transition: background-color 500ms ease-out 500ms, width 500ms linear;
+}
+    
+#picture2:hover {
+    background-color: olive;
+    width: 200px;
+    border: 2px solid red;
+}
+#picture3 {
+    width: 300px;
+    margin: 50px; 
+    background-color: orangered;
+    height: 200px;
+    transition: background-color 500ms ease-out 500ms, width 1s linear;
+}
+
+#picture3:hover {
+    box-shadow: inset;
+    background-color: aquamarine;
+    width: 600px;
+    left: 500px;
+}
+
+#picture4 {
+    width: 300px;
+    margin: 50px; 
+    background-color: purple;
+    height: 200px;
+    transition: background-color 1s ease-in-out 1s, 1s linear;
+}
+
+#picture4:hover {
+    background-color: darkcyan;
+    border-radius: 50px;
+    position: relative;
+    left: 250px;
+}
+
+#picture5 {
+    width: 300px;
+    margin: 50px; 
+    background-color: blue;
+    height: 200px;
+    position: relative;
+    left: 600px;
+    transition: background-color 1s ease-in-out 1s, height 1s linear;
+}
+#picture5:hover {
+    background-color: darkorchid;
+    height: 800px;
+    border: 5px solid black;
+   
+}
+
+#picture6 {
+    width: 300px;
+    margin: 50px; 
+    background-color: cyan;
+    height: 200px;
+    transition: background-color 1s ease-out 1s, width 1s linear;
+}
+ 
+#picture6:hover{
+    background-color: fuchsia;
+    width: 1400px;
+}

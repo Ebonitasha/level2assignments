@@ -1,0 +1,323 @@
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('http://jigsaw.w3.org/css-validator/check/referer');
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+body{
+    margin: 10px;
+    padding: 0;
+    font-family: 'Libre Baskerville', sans-serif;
+    /* font-size: 70%; */
+}
+
+header {
+    background-color: grey;
+    background-image: url(./huntington.jpg);
+    width: 97vw;
+    height: 43vh;    
+}
+.enso{
+    height: 190px;   width: 190px;
+    position: relative; 
+    left: 130px;
+    top: -40px;
+
+}
+.css{
+    display: flex;
+    width: 100vw;
+    color: white;
+    position: relative;
+    left: 350px;
+
+    top: 110px;
+}
+.css2{
+    color: white;
+    position: relative;
+    left: 350px;
+    top: 110px;
+}
+.button{
+    height: 75px;
+    width: 400px;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    top: -120px;
+    left: 810px; 
+    font-size: large;
+}
+.arrow{
+    height: 75px; width: 75px;
+    position: relative;
+    background-color: transparent;
+    top: -120px;
+    left: 810px;
+    color: rgb(160, 155, 155);
+} 
+.summary{
+    background-color: white;
+    width: 97vw;
+    height: 110vh;  
+}
+.first{
+    display: flex;
+}
+.sidebar-1{
+    background-color: #edf4f0;
+    width: 120vw;
+    height: 110vh;
+}
+.sidebar ul {
+    padding: 22;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+.design-selection ul, .zen-resources ul {
+    margin: 0;
+}
+.design-selection li, .zen-resources li {
+    float: left;
+    width: 50%;
+    padding: 1.5em 10%;
+    border-top: solid 1px #d9e3dc;
+    color: #c0cac3;
+    font-style: italic;
+}
+.design-selection li:hover, .design-selection li:focus {
+      background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%); /* IE10+ */
+      background: linear-gradient(to right,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%); /* W3C */
+}
+.design-selection li:nth-child(2n+1), .zen-resources li:nth-child(2n+1) {
+    clear: left;
+}
+.design-selection .design-name, .zen-resources a, li.viewall a {
+    display: block;
+    margin-bottom: 0.25em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.2em;
+    font-style: normal;
+    text-transform: uppercase;
+}  
+.design-selection h3 {
+    display: none;
+  }
+  .design-selection .designer-name {
+    color: #616857;
+    font-size: 0.9em;
+    font-style: normal;
+  }
+  
+.select{
+    font-size: 40px;
+    visibility: hidden;
+}
+.participation {
+    background-color: rgb(99, 159, 165);
+    width: 97vw;
+    height: 80vh;  
+}
+.resources{
+    display: none;
+}
+.second{
+    display: flex;
+}
+.sidebar-2{
+    
+    width: 112vw;
+    /* height: 50vh; */
+}
+.requirements {
+    background-color: white;
+    width: 97vw;
+    height: 80vh; 
+}
+.third{
+    display: flex;
+}
+.sidebar-3{
+    background-color: #edf4f0;
+    width: 178vw;
+    height: 82vh;
+}
+.ending{
+    background-image: url(./koi.jpg);
+    height: 40vh;
+    width: 97vw;
+    
+}
+.theBook{
+    position: relative;
+    bottom: -120px;
+    left: 150px;
+}    
+.footer {
+    height: 25vh;
+    width: 97.5vw;
+    background-color:rgb(30, 80, 76);
+    font-size: 50px;
+    color: rgb(218, 215, 211);
+    text-align: center;
+    margin: -1px -5px 0px;
+    word-spacing: 150px;
+}
+.icon{
+    position: relative;
+    bottom: -80px;
+}
+
+
+@media (max-width:768px) {
+.sidebar-1{
+    flex: none;
+    display: table-row;
+    width: 98vw;
+    height: 60vh;
+    background-color: white;
+    position: relative;
+    top: 2210px;
+    right: 703px;
+}
+.sidebar-2{
+    flex: none;
+    display: table-row;
+    width: 104vw;
+    height: 35vh;
+    background-color: rgb(99, 159, 165);
+    position: relative;
+    bottom: -1800px;
+    right: 703px; 
+}
+.ending{
+    height: 20vh;
+}
+.theBook{
+    font-size: small;
+    position: relative;
+    bottom: -55px;
+    left: 15px;
+    color: white; 
+     
+}
+.sidebar ul {
+    display: flexbox;
+    padding: 5;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+ }
+.intro-1{
+    background-color: white;
+    display: inline-block;
+    width: 97vw;
+    /* height: 100vh;     */
+}
+.intro-2{
+    background-color: white;
+    display: inline-block;
+}
+.intro-3{
+    background-color: white;
+    display: inline-block;
+}
+
+.design-selection li, .zen-resources li {
+    float: left;
+    width: 25%;
+    font-style: italic;
+}
+
+.design-selection .design-name, .zen-resources a, li.viewall a {
+    display: block;
+    
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: medium;
+    font-style: normal;
+    text-transform: uppercase;
+}  
+  .design-selection .designer-name {
+    color: #616857;
+    font-size: smaller;
+    font-style: normal;
+  }
+  
+.select{
+    font-size: 40px;
+    visibility: hidden;  
+}
+
+.intro-4{
+    display: inline-flexbox;
+    width: 97vw;
+    
+}
+.intro-6{
+    display: inline-flexbox;
+    width: 97vw; height: 65vh; 
+}
+.enso{
+    height: 100px;   width: 100px;
+    position: relative; 
+    left: 70px;
+    top: -40px;
+
+}
+
+.css{
+    display: flex;
+    width: 80vw;
+    color: white;
+    position: relative;
+    left: 210px;
+    top: 75px;
+}
+.css2{
+    color: rgb(193, 194, 181);
+    position: relative;
+    left: 210px;
+    top: 80px;
+    font-size: medium;
+     
+}
+.button{
+    height: 75px;
+    width: 655px;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    left: 1px;
+    top: 20px;     
+    font-size: large;
+}
+.arrow{
+   display: none;
+}
+.footer {
+    height: 15vh;
+    width: 97vw;
+    background-color:rgb(30, 80, 76);
+    font-size: 20px;
+    color: rgb(218, 215, 211);
+    text-align: center;
+    margin: -1px -5px 0px;
+    word-spacing: 50px;
+    position: relative;
+    top: 15px;
+    position: relative;
+    top: 3px;
+}
+.icon{
+    position: relative;
+    bottom: -40px;
+}
+
+}
+

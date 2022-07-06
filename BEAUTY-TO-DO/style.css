@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(141, 129, 129);
+}
+#todoForm {
+    display: flex;
+    
+}
+.header{
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 2rem; 
+  position: relative;
+  left: 300px;
+}
+.container{
+    display: inline-flex;
+}
+
+#new-task-input{
+    /* flex: 1 1 0%; */
+    
+    background-color: rgb(199, 184, 184);
+    padding: 1rem;
+    border-radius: 1rem;   
+}
+#new-task-input ::placeholder{
+    color: black;
+}
+
+#new-task-submit{
+    color: aliceblue;
+    background-color: rgb(199, 184, 184);
+    padding: 1rem;
+    border-radius: 1rem;  
+}
+.price{
+    background-color: rgb(199, 184, 184);
+    padding: 1rem;
+    border-radius: 1rem;  
+}
+.description{
+    background-color: rgb(199, 184, 184);
+    padding: 1rem;
+    border-radius: 1rem;  
+}
+.URL{
+    background-color: rgb(199, 184, 184);
+    padding: 1rem;
+    border-radius: 1rem;  
+}

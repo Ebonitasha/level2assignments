@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BEAUTY TO-DO LIST</title>
+</head>
+<body>
+    <header class="header">BEAUTY TO-DO LIST</header>
+    <div class="container">
+        <form name="todoform" id="todoform">
+            <input 
+            class="input" 
+            name="title" 
+            id="new-task-input" 
+            placeholder="What will you like to add?" />
+            <input 
+            class="price" 
+            type="number"
+            name="price" 
+            id="price" 
+            placeholder="Item price $$" />
+            <input 
+            class="description" 
+            type="text"
+            name="description" 
+            id="description" 
+            placeholder="Description" />
+            <input 
+            class="URL" 
+            type="text"
+            name="image"
+            id="URL" 
+            placeholder="URL for image" />
+            <button id="new-task-submit" class="addBut">Add Items</button>
+
+        </form>
+    </div>   
+<main>
+    <section class="task-list">
+        <h2>ADD ITEMS</h2>
+    <ul class="todoList" id="todoList">
+        
+    </ul>
+    </section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
+
+ 

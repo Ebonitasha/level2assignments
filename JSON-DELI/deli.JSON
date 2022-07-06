@@ -1,0 +1,61 @@
+{"appetizers": [
+    {
+        "name": "Mac and Cheese Balls",
+        "ingredients": ["pasta", "cheese", "bacon", "cornbread", "milk"],
+        "description": "cheesy and flavorful fried into a golden crisp ball"
+    },
+    {
+        "name": "Bang bang shrimp",
+        "ingredients": ["shrimp", "cornstarch", "buttermilk", "mayonnaise", "sriracha", "chill paste"],
+        "description": "shrimp fried in buttermilk, coated with mayo, spicy paste"
+    }
+],
+"cold sandwiches": [
+    {
+        "name": "Cold cut trio",
+        "ingredients": ["ham", "salami", "bologna", "wheatbread", "mozzarella cheese", "lettuce", "tomato", "olives"],
+        "description": "Your choice of spread on the bread, toasted with cold cut ingredients"
+    },
+    {
+        "name": "Turkey club",
+        "ingredients":["turkey", "wheatbread", "american cheese", "lettuce", "tomato", "pickles"],
+        "description": "Your choice of spread on the bread, toasted with Turkey culb ingredients"
+    }
+],
+"hot sandwiches": [
+    {
+        "name": "Meatball",
+        "ingredients": ["wheatbread", "shedder cheese", "6 meatball in marinara sauce"],
+        "description":"Your choice of spread on the bread, toasted with Meatball ingredients"
+    },
+    {
+        "name": "Sloppy Joe",
+        "ingredients": ["wheatbread", "ground beef", "marinara chill sause", "american cheese", "onion", "pickles" ],
+        "description":"Your choice of spread on the bread, toasted with Sloppy Joe ingredients"
+    }
+],
+"dessert": [
+    {
+        "name": "Peach Cobbler",
+        "ingredients": ["peaches", "brown & white sugar", "butter", "vanilla abstact", "pie crust"],
+        "description": "Baked fresh daily, glazed crust and topped with a scoop of homemade vanilla icecream"
+    },
+    {
+        "name": "Pecan Pie",
+        "ingredients": ["pecans", "corn syrup", "brown & white sugar", "butter", "vanilla abstact", "pie crust"],
+        "description": "Nutty and butterly flavors combined with pecan topped with a dollop of whipped cream"
+    }
+],
+"drinks": [
+    {
+        "name": "Raspberry Lemonade",
+        "ingredients": ["respberrys", "sugar", "water", "lemon juice"], 
+        "description": ["its very berry with just the perfect amount of sweet"]
+    },
+    {
+        "name": "Kool-Aid",
+        "ingredients": ["strawberry", "banana", "oranges", "water"],
+        "description": ["have a taste of the old days with our freashly made kool-aid"]
+    }
+]
+}

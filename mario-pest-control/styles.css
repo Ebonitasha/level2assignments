@@ -1,0 +1,198 @@
+
+#flex-container{
+    display: inline-flex;
+    margin-left: 190px;
+
+}
+#flex-container-title{
+    color: rgb(245, 14, 14);
+    font-family: cursive;
+    font-size: 35px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    
+}
+.call{
+    position: relative;
+    right: 360px;
+
+}
+.mario-1{
+    height: 170px; width: 325px;
+    position: relative;
+    right: 10px;
+}
+.mario-2{
+    width: 250px;
+    height: 175px;
+    position: relative;
+    left: -230px;
+}
+
+#flex-container-2{
+    display: inline-flex;
+    margin-left: 190px;
+    border: 3px solid black;
+    height: 440px;width: 1150px;
+    position: relative;
+    bottom: -10px;
+
+}
+#flex-container-pest1{
+    height: 250px;
+    padding: 15px;
+    margin-right: 10px;
+    position: relative;
+    top: -25px;
+}
+.pest-1{
+    height: 250px;width: 250px;
+    padding: 15px;
+}
+
+#flex-container-pest2{
+    height: 250px;
+    padding: 15px;
+    margin-right: 15px;
+    position: relative;
+    left: 15px;
+    top: -25px;
+}
+.pest-2{
+    height: 250px;
+    padding: 15px;
+    
+}
+#flex-container-pest3{
+    height: 250px;
+    padding: 15px;
+    margin-right: 15px;
+    position: relative;
+    left: 30px;
+    top: -25px;
+}
+.pest-3{
+    height: 250px;width: 300px;
+    padding: 15px;
+}
+
+.button{
+    color: red;
+    position: relative;
+   left: 700px;
+   bottom: 15px;
+   width: 120px;
+}
+.total{
+    position: relative;
+    top: 1px;
+    left: 10px;
+    font-size: larger;
+    color: green;
+} 
+.orderTotal{
+    position: relative;
+    left: 650px;
+}  
+.h1{
+    position: relative;
+    left: 500px;
+    bottom: 30px;
+}
+.kindOf{
+    position: relative;
+    bottom: 30px;
+    left: 60px;
+}
+.coin1{
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    font-family: cursive;
+}
+.kindOf-2{
+    position: relative;
+    bottom: 30px;
+    left: 160px;
+}
+.coin2{
+    position: relative;
+    bottom: 30px;
+    left: 165px;
+    font-family: cursive;
+}
+.kindOf-3{
+    position: relative;
+    bottom: 30px;
+    left: 70px;
+}
+.coin3{
+    position: relative;
+    bottom: 30px;
+    left: 75px;
+    font-family: cursive;
+}
+.p1{
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p2{
+    position: relative;
+    bottom: 30px;
+    left: 120px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p3{
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cheep{
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    width: 30px;
+}
+.bob{
+    position: relative;
+    bottom: 30px;
+    left: 200px;
+    width: 30px;
+}
+.goombas{
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    width: 30px;
+}
+
+ #flex-container-6{
+    display: flex;
+    position: relative;
+    left: 350px;
+    bottom: -20px;
+} 
+
+.web{
+    position: relative;
+    font-size: large;
+    right: 25px;
+}
+.email{
+    position: relative;
+    left: 20px;
+}
+.address{
+    position: relative;
+    left: 80px;
+    display: flex;
+} 

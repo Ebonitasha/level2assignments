@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Welcome to About-Time Airlines</h1>
+<p>Please fill out this form before entering the plane. Thank you!</p>
+    <form name="travel">
+    First name:  <input type="text" name="firstName"/>  
+    <br>
+    Last name:   <input type="text" name="lastName"/>  
+    <br>
+    Age:       <input type="number" name="age"/>
+    <br>
+    Male:     <input type="radio" name="gender" value="Male"/>
+    Female:    <input type="radio" name="gender" value="Female"/>
+    <br>
+    <select name="location">
+        <option value="Tulum">Tulum</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Guna">Guna</option>
+    </select>
+    <label for>Where are you going?</label>
+    <br>
+    Dietary Restriction:
+    <br>
+    Gluten Free <input type="checkbox" name="dietary" value="Lactose"/>
+    <br>
+    Keto    <input type="checkbox" name="dietary" value="Keto"/>
+    <br>
+    Vegan   <input type="checkbox" name="dietary" value="Vegan"/>
+
+    <br>
+    <button id="submit">Submit</button>
+</form>
+  
+</body>
+<script src="main.js"></script>
+</html>
+
